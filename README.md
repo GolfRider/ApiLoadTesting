@@ -5,3 +5,4 @@
 3. I used this to debug and tune up some nginx config, which was crashing under load 
    (although some times)
 4. This should be simple to extend depending on the use case.
+5. It also generates a very informative statistic report.
