@@ -14,11 +14,9 @@ const (
 	RATE          = 100               // req per second
 	TEST_DURATION = 120 * time.Second // test duration
 
-
 	API_HOST = "https://<API_SERVER_URL>"
 	API_KEY  = "API_KEY_123456789"
 )
-
 
 // rate : req/sec
 // duration : in sec
@@ -51,7 +49,7 @@ func loadTest(rate int, duration int) {
 		Header: header,
 	}
 
-	targeter := vegeta.NewStaticTargeter(getBookById, getBooks)  // list of api targets
+	targeter := vegeta.NewStaticTargeter(getBookById, getBooks) // list of api targets
 
 	attacker := vegeta.NewAttacker()
 	var metrics vegeta.Metrics
