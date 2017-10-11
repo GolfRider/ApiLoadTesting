@@ -11,7 +11,7 @@ Sample Report:
 --------------
 Requests      [total, rate]            30000, 250.01
 Duration      [total, attack, wait]    2m0.548248442s, 1m59.995999932s, 552.24851ms
-Latencies     [mean, 50, 95, 99, max]  74.437595ms, 54.501095ms, 132.622449ms, 564.452081ms, 1.574880372s
+Latencies     [mean, 50, 95, 99, max]  74.437595ms, 54.501095ms,132.622449ms,564.452081ms,1.574880372s
 Bytes In      [total, mean]            196785000, 6559.50
 Bytes Out     [total, mean]            0, 0.00
 Success       [ratio]                  100.00%
